@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Arial';
+}
+
+body {
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100%;
+}
+
+/*Geral*/
+.geral {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.topo {
+    background-color: white;
+    height: 15%;
+}
+
+.menu {
+    background-color: #222;
+    height: 98px;
+}
+
+.conteudo {
+    background-color: white;
+    min-height: 65%;
+    padding-bottom: 2%;
+}
+
+.rodape {
+    background-color: white;
+    height: 5%;
+    margin-top: 1%;
+    bottom: 0;
+}
+/*Fim do Geral*/
+
+/*Topo*/
+.imagem_topo{
+    margin: 1%;
+    width: auto;
+    height: 90%;
+} 
+/*Fim do Topo*/
+
+/*Menu*/
+.menu ul{
+    position: absolute;
+}
+    
+.menu ul li{
+    height: 100%;
+    width: 160px;
+    float: left;
+}
+
+.menu a{
+/*    padding: 15px;*/
+    padding-top: 33px;
+    padding-bottom: 15px;
+    height: 50px;
+    width: 160px;
+    display: block;
+    text-align: center;
+    background-color: #222;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+    
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: #aaa;
+    color: #555;
+}
+
+.menu ul ul li{
+    float: none;
+}
+/*Fim do Menu*/
+
+/*Produtos*/
+.produto{
+    width: 20%;
+    min-height: 40%;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.imagem_produto{
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 50%;
+    display: block;
+}
+
+.btnComprar{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.btnDetalhes{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.texto_produto{
+    font-size: 20px;
+}
+
+.titulo{
+    margin-top: 5px;
+    min-height: 6%;
+    display: block;
+}
+/*Fim do Produtos*/
+
+/*Adicionar Produto*/
+.titulo_form{
+    display: block;
+    color: red;
+    font-size: 35px;
+    padding: 5%;
+    font-weight: bold;
+}
+.titulo_geral{
+    color: red;
+    font-size: 35px;
+    padding: 5%;
+    font-weight: bold;
+}
+
+/*Fim Adcionar Produto*/
+
+/*Rodape*/
+.direitos{
+    text-align: center;
+    color: blue;
+}
+/*Fim do Rodape*/
+
+.spinner{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
